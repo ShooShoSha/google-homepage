@@ -1,6 +1,7 @@
 body {
     background-color: white;
     color: #222;
+    font-family: arial;
 }
 
 ul {
@@ -60,6 +61,11 @@ button.button:hover {
     margin: auto;
     text-align: center;
     width: 50%;
+}
+
+#query-box {
+  margin-top: 10%;
+  width: 40%;
 }
 
 #logo {
