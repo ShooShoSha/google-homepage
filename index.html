@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Google</title>
-    <link rel="stylesheet" href="google.css"/>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <link rel="stylesheet" href="google.css"/>
+  <link rel="shortcut icon" href="https://www.google.com/s2/favicons?domain=www.google.com" />
 </head>
 <body>
-<div id="query-box" class="center">
+  <nav>
+    <ul>
+      <li><button class="button">Sign in</button></li>
+      <li><a href=#>menu</a></li>
+      <li><a href=#>Images</a></li>
+      <li><a href=#>Gmail</a></li>
+    </ul>
+  </nav>
+  <div id="query-box" class="center">
     <img id="logo" class="center" alt="Google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     <form>
-        <input id="search-box" type="text" name="query">
-        <div>
-            <input id="search" class="button" type="submit" value="Google Search">
-            <input id="lucky" class="button" type="submit" value="I'm Feeling Lucky">
-        </div>
+      <input id="search-box" type="text" name="query">
+      <div>
+        <input id="search" class="button" type="submit" value="Google Search">
+        <input id="lucky" class="button" type="submit" value="I'm Feeling Lucky">
+      </div>
     </form>
-</div>
+  </div>
 </body>
 </html>
